@@ -75,7 +75,7 @@
                            <div class="ttm-newsletter-box">
                                <h3 class="widget-title">Newsletter</h3>
                                <p>Sign up to get exclusive offers from our favorite brands and to be well up in the news.</p>
-                               <form class="mc4wp-form mc4wp-form-24" method="post" data-id="24" data-name="Newsletter Form">
+                               <form class="mc4wp-form mc4wp-form-24" method="post" data-id="24" data-name="Newsletter Form" action= " ">
                                     <div class="mc4wp-form-fields">
                                         <div class="mailchimp-inputbox">
                                             <input type="email" name="EMAIL" placeholder="Your email address.." required="">
@@ -176,4 +176,30 @@
 
 </body>
 
-<!-- index.php   08:39:03  -->
+<?php
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get the email input and sanitize it
+    $email = filter_var(trim($_POST['EMAIL']), FILTER_SANITIZE_EMAIL);
+
+    // Validate email
+    if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Invalid email address.";
+        exit;
+    }
+
+    // Prepare the email
+    $to = "support@asnutrihelp.com"; // Recipient email
+    $subject = "New Newsletter Subscription";
+    $message = "A new user has subscribed to the newsletter.\n\nEmail: $email";
+    $headers = "From: no-reply@asnutrihelp.com\r\n"; // Replace with your domain email
+    $headers .= "Reply-To: no-reply@asnutrihelp.com\r\n";
+
+    // Send the email
+    if (mail($to, $subject, $message, $headers)) {
+        echo "Thank you for subscribing to our newsletter.";
+    } else {
+        echo "Oops! Something went wrong. Please try again.";
+    }
+}
+?>

@@ -78,7 +78,7 @@ include('includes/header.php')
                             <p>Reach out to AS Nutri Help for personalized diet plans and expert nutrition guidance tailored to your health and wellness goals.</p>
                             <div class="row mt-15">
                                 <div class="col-md-12">
-                                    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                                    <p>Email: <a href="mailto:support@asnutrihelp.com">support@asnutrihelp.com</a></p>
                                     <p>Ph: <a href="tel:+918125043330">+91 8125043330</a></p>
                                     <p>Website: <a href="https://asnutrihelp.com">asnutrihelp.com</a></p>
                                 </div>
@@ -91,16 +91,16 @@ include('includes/header.php')
                             <div class="col-md-12">
                                 <h4>Send Your Message</h4>
                                 <p>Dont hesitate to send messge us, Our team will help you 24/7.</p>
-                                <form id="ttm-contactform" class="ttm-contactform wrap-form clearfix" method="post" action="#">
+                                <form  class="ttm-contactform wrap-form clearfix" method="post" action=" ">
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <label>
-                                                <span class="text-input"><input name="your-name" type="text" value="" placeholder="Name" required="required"></span>
+                                                <span class="text-input"><input name="name" type="text" value="" placeholder="Name" required="required"></span>
                                             </label>
                                         </div>
                                         <div class="col-lg-12">
                                             <label>
-                                                <span class="text-input"><input name="your-phone" type="text" value="" placeholder="Phone" required="required"></span>
+                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required"></span>
                                             </label>
                                         </div>
                                     </div>
@@ -144,3 +144,48 @@ include('includes/header.php')
  
      ?>
 </html>
+
+<?php
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get form input values and sanitize them
+    $name = htmlspecialchars(strip_tags(trim($_POST['name'])));
+    $phone = htmlspecialchars(strip_tags(trim($_POST['phone'])));
+    $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+    $subject = htmlspecialchars(strip_tags(trim($_POST['venue'])));
+    $message = htmlspecialchars(strip_tags(trim($_POST['message'])));
+    
+    // Validate required fields
+    if (empty($name) || empty($phone) || empty($email) || empty($subject) || empty($message)) {
+        echo "All fields are required.";
+        exit;
+    }
+    
+    // Validate email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Invalid email format.";
+        exit;
+    }
+    
+    // Prepare the email
+    $to = "support@asnutrihelp.com"; // Recipient email
+    $email_subject = "New Contact Form Submission: $subject";
+    $email_body = "You have received a new message from your website contact form.\n\n".
+                  "Here are the details:\n".
+                  "Name: $name\n".
+                  "Phone: $phone\n".
+                  "Email: $email\n".
+                  "Subject: $subject\n".
+                  "Message:\n$message\n";
+    
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+
+    // Send the email
+    if (mail($to, $email_subject, $email_body, $headers)) {
+        echo "Thank you! Your message has been sent successfully.";
+    } else {
+        echo "Oops! Something went wrong, and we couldn't send your message.";
+    }
+}
+?>

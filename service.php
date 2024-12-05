@@ -200,9 +200,6 @@ include('includes/header.php')
             <div class="contactfrm" id="contform" style="margin-top:600px">
               <h4>Fill up your details!</h4>
               <form class="myForm1" id="myfrom1">
-                <input type="hidden" name="formIdentifier" value="qua_leads">
-                <input type="hidden" class="currentDate" name="currentDate">
-
                 <!-- Name field -->
                 <div class="input-group mb-3">
                   <div class="input-group-prepend">
@@ -326,7 +323,7 @@ include('includes/header.php')
           <div class="col-md-4">
             <div class="contactfrm" id="contform">
               <h4>Fill up your details!</h4>
-              <form class="myForm2" id="myfrom2">
+              <form class="myForm2" id="myfrom2" method="post" action="">
                 <input type="hidden" name="formIdentifier" value="qua_leads">
                 <input type="hidden" class="currentDate" name="currentDate">
                 <!-- Name field -->
@@ -1208,3 +1205,48 @@ include('includes/header.php')
 
 
     </html>
+
+
+    <?php
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
+    // Get form input values and sanitize them
+    $name = htmlspecialchars(strip_tags(trim($_POST['name'])));
+    $mobile = htmlspecialchars(strip_tags(trim($_POST['mobile'])));
+    $city = htmlspecialchars(strip_tags(trim($_POST['city'])));
+    $services = htmlspecialchars(strip_tags(trim($_POST['services'])));
+    $comments = htmlspecialchars(strip_tags(trim($_POST['comments'])));
+
+    // Validate required fields
+    if (empty($name) || empty($mobile) || empty($city) || empty($services) || empty($comments)) {
+        echo "All fields are required.";
+        exit;
+    }
+
+    // Validate mobile number
+    if (!preg_match("/^[789][0-9]{9}$/", $mobile)) {
+        echo "Invalid mobile number format.";
+        exit;
+    }
+
+    // Prepare the email
+    $to = "support@asnutrihelp.com"; // Recipient email
+    $subject = "New Registration: $services";
+    $message = "You have received a new registration from your website.\n\n" .
+               "Name: $name\n" .
+               "Mobile: $mobile\n" .
+               "City: $city\n" .
+               "Selected Service: $services\n" .
+               "Comments:\n$comments\n";
+
+    $headers = "From: no-reply@asnutrihelp.com\r\n"; // Replace with your domain email
+    $headers .= "Reply-To: no-reply@asnutrihelp.com\r\n";
+
+    // Send the email
+    if (mail($to, $subject, $message, $headers)) {
+        echo "Thank you! Your registration has been submitted successfully.";
+    } else {
+        echo "Oops! Something went wrong. Please try again later.";
+    }
+}
+?>
