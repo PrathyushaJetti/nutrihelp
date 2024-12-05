@@ -1,0 +1,1564 @@
+@font-face {
+    font-family: gothamblack;
+    src: url('assets/font/GothamMedium.ttf');
+}
+@font-face {
+    font-family: gothambold;
+    src: url('assets/font/GothamBold.ttf');
+}
+@font-face {
+    font-family: gothambook;
+    src: url('assets/font/GothamBook.ttf');
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #e6e6e6;
+    outline: 0;
+    box-shadow: none;
+}
+.mview{
+    display: none;
+}
+.btn-sub1 {
+    background-color: rgb(240, 80, 80);
+    color: white;
+    width: 39%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.banner{
+    background-image: url('../img/servicess-banner.webp');
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+}
+.banner h1 {
+    color: #f37a21;
+    font-family: gothamblack;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 600;
+    transform: translate(65px, 77px);
+    line-height: 1;
+}
+.contactfrm {
+    background: #369d31;
+    padding: 34px;
+    
+}
+.contactfrm h4{
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    /* text-align:center; */
+}
+.btn-dark {
+    color: #fff;
+    background-color: #131418;
+    border-color: #343a40;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 01;
+    font-family: gothamblack;
+}
+.contactfrm .input-group{
+    width: 100%;
+    
+}
+.contactfrm input{
+    border-radius: 0;
+    border:0
+
+}
+.contactfrm .input-group-text{
+    border-radius: 0;
+    border:none;
+    background: white;
+}
+.contactfrm select{
+    border-radius: 0;
+    border:none;
+}
+.btn-sub1{
+    background-color: rgb(240, 80, 80);
+    color: white;
+}
+.btn-sub1:hover{
+    color: white;
+}
+.section2{
+    padding-top: 80px;
+    font-family: 'Lato', sans-serif;
+}
+.section2 p{
+    font-size: 26px;
+    color: #4e4d4d;
+}
+.section3{
+    margin-top: 60px;
+}
+.section3 h2 {
+    color: #5d5d5d;
+    margin: 0 0 0 0px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.jrnybox{
+    text-align: center;
+}
+.jrnycont{
+    font-size: 19px;
+    color:#4e4d4d;
+}
+.quaprogramsect{
+    margin-top: 80px;
+}
+.quaproghead {
+    transform: translate(-79px, 35px);
+}
+.quaprogramsect h2 {
+    font-family: gothamblack;
+    color: #f37a21;
+    font-size: 163px;
+    font-weight: 600;
+}
+.quaprogramsect p {
+    font-family: gothamblack;
+    font-size: 55px;
+    color: #5d5d5d;
+    padding: 0;
+    line-height: 0;
+    font-weight: 600;
+    margin: 0 0 0 14px;
+}
+.programbg {
+    background-image: url('../img/lady-dietician.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 853px;
+    transform: translate(-12px, 84px);
+    z-index: 1;
+    width: 113%;
+}
+.prognamecol {
+    background-image: url(assets/img/colorbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 849px;
+}
+.prognamecol img{
+    width: 100%;
+   
+}
+.prognamecol p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #f37a21;
+    line-height: 30px;
+    font-family: gothamblack;
+}
+.section5{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.whyus{
+    margin-top: 100px;
+}
+.whyushead{
+    margin: -62px 0 0 240px;
+}
+.whyushead h2 {
+    font-family: gothamblack;
+    font-weight: 600;
+    font-size: 126px;
+    text-align: center;
+    color: #5d5d5d;
+}
+.whyushead .head2 {
+    color: #f37a21;
+    font-size: 165px;
+    margin: 0px 0 0 167px;
+    line-height: 0;
+}
+.whyusimg{
+    background-image: url('assets/img/whyusimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.section5 h3{
+   color: #f37a21;
+   font-family: gothamblack;
+   font-size: 55px;
+   text-align: center;
+   font-weight: 600;
+}
+
+.section5 p {
+    
+    font-size: 22px;
+    margin-top: -14px;
+    line-height: 1;
+    color: #5d5d5d;
+    font-family: gothambook;
+}
+.stattxt1{
+    margin-left: 31px;
+}
+.stattxt2{
+    margin-left: 31px;
+}
+.stattxt3{
+    margin-left: 31px;
+}
+.section6
+{
+    background-image: url('assets/img/nutrientsbanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-bottom: 350px;
+}
+.videoblock{
+    margin-top: 230px;
+   
+}
+.videoblock iframe{
+    height: 520px;
+}
+.section7{
+    padding-top: 350px;
+}
+.section7 h3{
+    font-family: gothambook;
+    text-transform: uppercase;
+    color: #585858;
+    font-size: 39px;
+}
+.section7 h2{
+    font-family: gothamblack;
+    text-transform: uppercase;
+    color: #f37a21;
+    font-weight: 600;
+    font-size: 56px;
+}
+.section7 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+}
+.section8 {
+    margin-top: 234px;
+    background: url(assets/img/mom-child.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 125px;
+    width: 90%;
+}
+.upchildimg{
+    transform: translate(128px, -392px);
+}
+.mtn347{
+    margin-top: -347px;
+}
+.section9 {
+    background-image: url(assets/img/ryan.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 635px;
+}
+.ryan{
+    margin: 112px 0 0 67px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #f37a21;
+    font-family: gothamblack;
+}
+.aboutryan {
+    font-family: 'Lato', sans-serif;
+    margin: 11px 0 0 67px;
+    font-size: 27px;
+    font-weight: 600;
+    color: #54575a;
+}
+.section10{
+   padding: 150px 0 0 0;
+   font-weight: 600;
+}
+.section10 h2{
+    color: #54575a;
+    font-family: gothamblack;
+    padding: 0 0 0 77px;
+    font-size: 45px;
+}
+#testimonial {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.ftrsection{
+    background: #f37a21;
+    padding: 10px 0 10px 0;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #f5811f;
+    color: white;
+    border-color: #f5811f;
+}
+.back-to-top:hover {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #f5811f;
+    color: white;
+    border-color: #f5811f;
+}
+.back-to-top:active {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #f5811f;
+    color: white;
+    border-color: #f5811f;
+}
+.regbtn {
+    width: 38%;
+    padding: 15px 0 15px 0;
+    display: block;
+    margin: 0 auto 0 239px;
+}
+.fa-chevron-left, .fa-chevron-right {
+    color: #000000;
+    font-size: 37px;
+    background: #f5811f;
+    padding: 5px 5px 5px 5px;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 0%;
+    opacity: 1;
+}
+.carousel-control-prev {
+    left: -43px;
+}
+.tlkto{
+	margin: 20px 0 0 0;
+}
+/* ----------------------------media queries------------------ */
+
+@media only screen and (max-width:660px){
+    
+    .mt300{
+        margin-top: 300px;
+    }
+  
+    .mbanner {
+        background: url('../img/servicess-banner.webp');
+        height: 249px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .mform{
+        margin-top: -275px;
+       }
+       .mform.contactfrm h4 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 16px;
+        /* text-align: center; */
+    }
+    .logo img {
+        width: 163px;
+        margin-top: 85px;
+        display: block;
+        margin-left: auto;
+    }
+    .contactfrm {
+        background:#369d31;
+        padding: 13px 30px 12px 30px;
+    }
+	.mbanner h1 {
+    color:#369d31;
+    font-family: gothamblack;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    transform: translate(10px, 51px);
+}
+.tlkto {
+    margin: 11px 0 0 0;
+}
+.cta img {
+    width: 15%;
+    transform: translate(13px,49px);
+}
+    .whyushead {
+        margin: -53px 0 0 -12px;
+    }
+    .whyushead h2 {
+        font-size: 67px;
+    }
+    .whyushead .head2 {
+        font-size: 76px;
+        margin: 0px 0 0 78px;
+    }
+    .whyusimg {
+        height: 311px;
+    }
+    .quaprogramsect h2 {
+        font-size: 90px;
+    }
+    .quaproghead {
+        transform: translate(0px, 0px);
+    }
+    .quaprogramsect p {
+        font-size: 40px;
+    }
+    .programbg {
+        height: 417px;
+        transform: translate(0px, 0px);
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+    .prognamecol img {
+        width: 57%;
+    }
+    .prognamecol {
+        height: 1054px;
+    }
+    .section6 {
+        margin-top: 24px;
+    }
+    .quaprogramsect table p {
+        font-size: 21px;
+    }
+    .prognamecol table{
+        margin-bottom: 20px;
+    }
+    .bannertxtsub h3 {
+        font-family: gothambold;
+        transform: translate(10px, 36px);
+        font-size: 25px;
+        color: #cacaca;
+    }
+    .cta button {
+        font-family: gothamblack;
+        background: #0f1113;
+        transform: translate(10px, 53px);
+        font-size: 19px;
+        text-align: left;
+        border: 2px solid #f37a21;
+        border-radius: 5px;
+        padding: 7px;
+        line-height: 1;
+    }
+    .section2 {
+        padding-top: 42px;
+        font-family: 'Lato', sans-serif;
+    }
+    .section2 p {
+        font-size: 19px;
+        color: #4e4d4d;
+        padding: 0 10px 0 10px;
+        text-align: justify;
+    }
+    
+    .section5 h3 {
+        color: #f37a21;
+        font-family: gothamblack;
+        font-size: 45px;
+        text-align: center;
+    }
+    .section5 p {
+        font-size: 19px;
+        margin-top: 0px;
+        line-height: 1;
+        color: #5d5d5d;
+        font-family: gothambook;
+        text-align: center;
+        margin-left: 0;
+        font-weight: 600;
+    }
+    .section6 {
+        height: 339px;
+    }
+    .videoblock iframe {
+        height: 375px;
+    }
+    .section7 {
+        padding-top: 171px;
+    }
+    .section7 p {
+        font-family: 'Lato', sans-serif;
+        font-size: 19px;
+    }
+    .momchild{
+        margin-top: 18px;
+    }
+    /* .upchildimg {
+        transform: translate(161px, -1px);
+        width: 234px;
+    } */
+    .section8 {
+        margin-top: 162px;
+        background: url(assets/img/mom-child.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 164px;
+        margin-bottom: 28px;
+        width: 90%;
+    }
+    .upchildimg {
+        transform: translate(155px, 160px);
+        width: 71%;
+    }
+    
+    .section7 h2 {
+        font-family: gothamblack;
+        text-transform: uppercase;
+        color: #f37a21;
+        font-weight: 600;
+        font-size: 43px;
+    }
+    .dview{
+    display: none;    
+    }
+    .mview{
+        display: block;
+    }
+    .section9a {
+        margin-top: 318px;
+    }
+    .section9 {
+        background-image: url(assets/img/ryan.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 498px;
+    }
+   .section10 {
+    padding: 29px 0 0 0;
+    font-weight: 600;
+    margin: 263px 0 0 0;
+}
+    .section10 h2 {
+        color: #54575a;
+        font-family: gothamblack;
+        padding: 0 0 0 33px;
+        font-size: 35px;
+    }
+    .aboutryan {
+        font-family: 'Lato', sans-serif;
+        margin: 11px 0 0 67px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #54575a;
+    }
+    #testimonial {
+        margin-top: 13px;
+        margin-left: 19px;
+    }
+    .regbtn {
+        width: 56%;
+        padding: 15px 0 15px 0;
+        display: block;
+        margin: 0px auto 0 86px;
+    }
+    .fa-chevron-left, .fa-chevron-right {
+        color: #000000;
+        font-size: 9px;
+        background: #f5811f;
+        padding: 5px 5px 5px 5px;
+    }
+    .program2,.program3,.program4,.program5{
+        margin-top: -35px;
+    }
+    .carousel-control-prev {
+        left: -21px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .logo img {
+        width: 152px;
+        margin-left: 333px;
+    }
+    .contactfrm {
+        transform: translate(37px, -456px);
+        margin-top: 0;
+        padding: 12px;
+    }
+    .contactfrm h4 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 18px;
+        /* text-align: center; */
+    }
+    .banner {
+        background-size: cover;
+        height: 606px;
+        background-repeat: no-repeat;
+    }
+   .banner h1 {
+    color: #f37a21;
+    font-family: gothamblack;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 600;
+    transform: translate(0px, 77px);
+    line-height: 1;
+}
+    .bannertxtsub h3 {
+        font-family: gothambook;
+        transform: translate(10px, 82px);
+        font-size: 19px;
+        color: #ff9934
+    }
+
+   
+    .cta img {
+        margin-top: 75px;
+        width: 67%;
+    }
+    .whyushead {
+        margin: -72px 0 0 0px;
+    }
+    .whyushead h2 {
+        font-size: 100px;
+    }
+    .whyushead .head2 {
+        font-size: 111px;
+        margin: 0px 0 0 76px;
+    }
+    .whyusimg {
+        height: 380px;
+    }
+    .jrnycont p{
+        font-size: 13px;
+    }
+    .quaprogramsect h2 {
+        font-size: 98px;
+    }
+    .quaprogramsect p {
+        font-size: 30px;
+    }
+    .prognamecol {
+        height: 693px;
+    }
+    .prognamecol img {
+        width: 77%;
+    }
+    .quaprogramsect table p {
+        font-size: 10px;
+    }
+    .programbg {
+        height: 580px;
+        transform: translate(-12px, 121px);
+        width: 151%;
+    }
+    .section2 p {
+        font-size: 24px;
+        color: #4e4d4d;
+    }
+   
+    .section5 h3 {
+        color: #f37a21;
+        font-family: gothamblack;
+        font-size: 37px;
+        text-align: center;
+    }
+    .section5 p {
+        font-size: 13px;
+        margin-top: -5px;
+        line-height: 1;
+        color: #5d5d5d;
+        font-family: gothambook;
+    }
+    .stattxt1 {
+        margin-left: 19px;
+    }
+    .stattxt2 {
+        margin-left: 19px;
+    }
+    .stattxt3 {
+        margin-left: 19px;
+    }
+    .section6 {
+        height: 334px;
+        margin-top: 27px;
+    }
+    .section7 h2 {
+        font-family: gothamblack;
+        text-transform: uppercase;
+        color: #f37a21;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .section7 p {
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+    }
+    .upchildimg {
+        transform: translate(38px, -154px);
+    }
+    .section9 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 491px;
+        margin-top: 495px;
+    }
+    .section10 {
+    padding: 74px 0 0 0;
+    margin: 405px 0 0 0;
+}
+    
+    .ryan {
+        margin: 62px 0 0 67px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #f37a21;
+        font-family: gothamblack;
+    }
+    .aboutryan {
+        font-family: 'Lato', sans-serif;
+        margin: 11px 0 0 67px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #54575a;
+    }
+    .regbtn {
+        width: 28%;
+        padding: 15px 0 15px 0;
+        display: block;
+        margin: 0 auto 0 239px;
+    }
+    .carousel-control-prev {
+        left: -15px;
+    }
+
+}
+
+@media only screen and (min-width:1280px){
+    .logo img {
+        width: 216px;
+        margin-left: 377px;
+    }
+    .contactfrm {
+        transform: translate(67px, -490px);
+    }
+    .cta img {
+        width: 56%;
+        transform: translate(58px,83px);
+    }
+    .section5 h3 {
+        font-size: 60px;
+    }
+    .section5 p {
+        font-size: 23px;
+    }
+    .whyus {
+        margin-top: 144px;
+    }
+    .whyusimg {
+        height: 477px;
+    }
+    .whyushead {
+        margin: -124px 0 0 66px;
+    }
+    .whyushead h2 {
+        font-size: 113px;
+    }
+    .whyushead .head2 {
+        font-size: 178px;
+        margin: 0px 0 0px 108px;
+    }
+   
+    .quaprogramsect h2 {
+        font-size: 123px;
+    }
+    .quaprogramsect p {
+        font-size: 39px;
+    }
+    .programbg {
+        height: 557px;
+        transform: translate(-15px, 137px);
+        width: 112%;
+    }
+    .prognamecol table p {
+        font-size: 15px;
+    }
+    .prognamecol {
+        height: 677px;
+    }
+   
+    .banner {
+        height: 760px;
+    }
+   
+    .banner h1 {
+    font-size: 55px;
+    transform: translate(57px, 105px);
+}
+    .bannertxtsub h3 {
+        font-family: gothambook;
+        transform: translate(61px, 82px);
+        font-size: 29px;
+        color: #ff9934;
+    }
+   
+    .section2 p {
+        font-size: 31px;
+    }
+    .jrnycont p {
+        font-size: 21px;
+    }
+
+    .section6 {
+        margin-bottom: 496px;
+        margin-top: 43px;
+    }
+    
+    .section7 p {
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+    }
+    /* .upchildimg {
+        transform: translate(75px, -392px);
+    } */
+    .upchildimg {
+        transform: translate(141px, -8px);
+    }
+    .section9 {
+        background-image: url(assets/img/ryan.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+    .aboutryan {
+        font-family: 'Lato', sans-serif;
+        margin: 11px 0 0 67px;
+        font-size: 27px;
+        font-weight: 600;
+        color: #54575a;
+    }
+    .section10 h2 {
+        color: #54575a;
+        font-family: gothamblack;
+        padding: 0 0 0 77px;
+        font-size: 55px;
+    }
+    .regbtn {
+        width: 27%;
+        padding: 15px 0 15px 0;
+        display: block;
+        margin: 0 auto 0 294px;
+    }
+    .carousel-control-prev {
+        left: -31px;
+    }
+}
+
+@media only screen and (min-width:1366px){
+    .logo img {
+        width: 216px;
+        margin-left: 377px;
+    }
+    .contactfrm {
+        transform: translate(101px, -578px);
+        margin-top: 0;
+    }
+	.contactfrm h4 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 29px;
+    margin: 9px 0 23px 0;
+}
+    .banner {
+        background-size: cover;
+        height: 771px;
+        background-repeat: no-repeat;
+    }
+    .banner h1 {
+    font-size: 43px;
+    transform: translate(9px, 131px);
+}
+    .bannertxtsub h3 {
+        font-family: gothambook;
+        transform: translate(61px, 82px);
+        font-size: 29px;
+        color: #ff9934;
+    }
+   
+    .cta img {
+    width: 70%;
+    transform: translate(15px,73px);
+}
+.whyus {
+    margin-top: 169px;
+}
+    .whyusimg {
+        height: 516px;
+    }
+    .whyushead {
+        margin: -115px 0 0 0px;
+    }
+    .section2 p {
+        font-size: 31px;
+        color: #4e4d4d;
+    }
+	.section3 {
+    margin-top: 91px;
+}
+    .section3 h2 {
+        color: #5d5d5d;
+        padding-bottom: 30px;
+    }
+    .programbg {
+        height: 612px;
+        transform: translate(-15px, 84px);
+        width: 113%;
+    }
+	.quaprogramsect {
+    margin-top: 19px;
+}
+    .quaprogramsect h2 {
+        font-size: 130px;
+    }
+    .quaprogramsect p {
+        font-size: 41px;
+        
+    }
+    .prognamecol table p {
+        font-size: 18px;
+    }
+    .prognamecol {
+        height: 683px;
+    }
+    .section6 {
+        margin-bottom: 510px;
+    }
+    
+    .section4 {
+        margin-top: 51px;
+    }
+    /* .upchildimg {
+        transform: translate(128px, -392px);
+    } */
+    .upchildimg {
+        transform: translate(194px, 7px);
+    }
+    .section9 {
+        background-image: url(assets/img/ryan.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 655px;
+    }
+    .aboutryan {
+        font-family: 'Lato', sans-serif;
+        margin: 11px 0 0 67px;
+        font-size: 27px;
+        font-weight: 600;
+        color: #54575a;
+    }
+	.section10 {
+    padding: 0px 0 0 0;
+    margin: 0 0 0 0;
+}
+    .section10 h2 {
+        color: #54575a;
+        font-family: gothamblack;
+        padding: 0 0 0 77px;
+        font-size: 55px;
+    }
+    .regbtn {
+        width: 28%;
+        padding: 15px 0 15px 0;
+        display: block;
+        margin: 0 auto 0 287px;
+    }
+}
+
+@media only screen and (min-width:1440px){
+    .logo img {
+        width: 245px;
+        margin-left: 395px;
+    }
+    .banner {       
+        height: 867px;
+    }
+    .banner h1 {
+    font-size: 56px;
+    transform: translate(27px, 111px);
+}
+    .bannertxtsub h3 {
+        font-family: gothambold;
+        transform: translate(61px, 111px);
+        font-size: 29px;
+        color: #cacaca;
+    }
+    .bannertxtsub h3 {
+        font-family: gothambook;
+        transform: translate(61px, 80px);
+        font-size: 29px;
+        color: #ff9934;
+    }
+    .cta img {
+    width: 80%;
+    transform: translate(54px,53px);
+}
+    .contactfrm {
+        transform: translate(138px, -583px);
+    
+    }
+    .section2 p {
+        font-size: 26px;
+        color: #4e4d4d;
+    }
+    
+    .section5 h3 {
+        font-size: 69px;
+    }
+    .section5 p {
+        font-size: 23px;
+    }
+    .whyusimg {
+        height: 544px;
+    }
+    .whyushead .head2 {
+        font-size: 178px;
+        margin: 0px 0 0px 188px;
+    }
+    .section2 p {
+        font-size: 32px;
+        color: #4e4d4d;
+    }
+    .jrnycont p {
+        font-size: 21px;
+    }
+	
+    .prognamecol table p {
+        font-size: 20px;
+    }
+    .prognamecol {
+        height: 761px;
+    }
+    .ryan {
+        font-size: 65px;
+    }
+    .aboutryan {
+        font-size: 36px;
+    }
+    .carousel-control-prev {
+        left: -46px;
+    }
+}
+@media only screen and (min-width:1600px){
+    .logo img {
+        width: 245px;
+        margin-left: 397px;
+    }
+    .banner {
+    height: 819px;
+}
+    .banner h1 {
+    font-size: 54px;
+    font-weight: 600;
+    transform: translate(12px, 139px);
+    line-height: 1;
+}
+    .bannertxtsub h3 {
+        
+        transform: translate(24px, 151px);
+        font-size: 29px;
+    }
+    .cta img {
+    width: 80%;
+    transform: translate(8px,81px);
+}
+    .contactfrm {
+        transform: translate(161px, -588px);
+        margin-top: 0;
+    }
+	.contactfrm h4 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    /* text-align: center; */
+    margin: 16px 0 37px 0;
+}
+    .whyus {
+        margin-top: 143px;
+    }
+    .whyushead h2 {
+        font-size: 130px;
+    }
+    .whyushead .head2 {
+        font-size: 191px;
+        margin: 0px 0 0px 188px;
+    }
+    .whyusimg {
+        height: 598px;
+    }
+    .programbg {
+        height: 722px;
+        transform: translate(-15px, 84px);
+        width: 113%;
+    }
+    .prognamecol table p {
+        font-size: 24px;
+    }
+    .section9 {
+        height: 749px;
+    }
+    .ryan {
+        font-size: 72px;
+    }
+    .aboutryan {
+        font-size: 40px;
+    }
+    .section2 p {
+        font-size: 34px;
+    }
+
+}
+@media only screen and (min-width:1680px){
+    .logo img {
+        width: 245px;
+        margin-left: 347px;
+    }
+
+   .banner {
+    height: 821px;
+}
+    .banner h1 {
+    font-family: gothamblack;
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: 600;
+    transform: translate(-50px, 123px);
+    line-height: 1;
+}
+    .bannertxtsub h3 {
+        transform: translate(-35px, 111px);
+        font-size: 33px;
+
+    }
+    .cta button {
+        font-family: gothamblack;
+        background: #0f1113;
+        transform: translate(-23px, 133px);
+        font-size: 19px;
+        text-align: left;
+        border: 2px solid #f37a21;
+        border-radius: 5px;
+        padding: 7px;
+        line-height: 1;
+    }
+    .contactfrm {
+    transform: translate(215px, -588px);
+    margin-top: 0;
+}
+   
+    .whyusimg {
+        height: 635px;
+    }
+    .quaprogramsect h2 {
+        font-size: 146px;
+    }
+    .quaprogramsect p {
+        font-size: 45px;
+    }
+    .programbg {
+        height: 756px;
+        transform: translate(-15px, 51px);
+        width: 113%;
+    }
+    .prognamecol table p {
+        font-size: 26px;
+    }
+    .section8 {
+        margin-top: 234px;
+        background: url(assets/img/mom-child.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 661px;
+        margin-bottom: 125px;
+        width: 90%;
+    }
+
+    .section9 {
+        background-image: url(assets/img/ryan.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 795px;
+    }
+    .ryan {
+        margin: 112px 0 0 67px;
+        font-size: 56px;
+        font-weight: 600;
+        color: #f37a21;
+        font-family: gothamblack;
+    }
+    .aboutryan {
+        font-family: 'Lato', sans-serif;
+        margin: 11px 0 0 67px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #54575a;
+    }
+    
+}
+@media only screen and (min-width:1920px){
+    .logo img {
+        width: 245px;
+        margin-left: 302px;
+    }
+    .banner {
+    height: 965px;
+}
+    .banner h1 {
+    color: #f57a1d;
+    font-family: gothamblack;
+    text-transform: uppercase;
+    font-size: 63px;
+    font-weight: 600;
+    transform: translate(-117px, 137px);
+    line-height: 1;
+}
+    .bannertxtsub h3 {
+        font-family: gothambook;
+        transform: translate(-97px, 111px);
+        font-size: 33px;
+        color: #fd9a32;
+    }
+    .cta img {
+    width: 80%;
+    transform: translate(-96px,124px);
+}
+    .contactfrm {
+        transform: translate(267px, -578px);
+        margin-top: 0;
+    }
+    .whyusimg {
+        height: 718px;
+    }
+    .section2 p {
+        font-size: 34px;
+        color: #4e4d4d;
+    }
+	.section3 {
+    margin-top: 148px;
+}
+    .section5 h3 {
+        color: #f37a21;
+        font-size: 80px;
+    }
+    .section5 p {
+        font-size: 23px;
+    }
+    .section6 {
+    margin-bottom: 202px;
+    margin-top: 94px;
+    height: 723px;
+}
+    .section9 {
+        margin-top: 5px;
+        height: 892px;
+    }
+    .jrnycont p {
+        font-size: 20px;
+    }
+    .programbg {
+        height: 861px;
+        transform: translate(-15px, 84px);
+        width: 113%;
+    }
+    .prognamecol {
+        height: 872px;
+    }
+    .prognamecol table p {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .upchildimg {
+        transform: translate(491px, 4px);
+    }
+    .ryan {
+        margin: 112px 0 0 67px;
+        font-size: 59px;
+        font-weight: 600;
+        color: #f37a21;
+        font-family: gothamblack;
+    }
+    .aboutryan {
+        font-family: 'Lato', sans-serif;
+        margin: 11px 0 0 67px;
+        font-size: 37px;
+        font-weight: 600;
+        color: #54575a;
+    }
+}
+
+/* ----------------device specific query */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 568px) 
+  and (orientation: portrait){
+   .mbanner {
+    height: 235px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .whyus {
+        margin-top: 43px;
+    }
+    .whyusimg {
+        height: 243px;
+    }
+    .section7 h2 {
+        font-family: gothamblack;
+        text-transform: uppercase;
+        color: #f37a21;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .upchildimg {
+        transform: translate(105px, 60px);
+        width: 200px;
+    }
+}
+@media screen 
+  and (device-width: 375px) 
+  and (device-height: 667px) 
+  and (orientation: portrait){
+    .mbanner {
+        height: 240px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .whyusimg {
+        height: 284px;
+    }
+    .upchildimg {
+        transform: translate(142px, 164px);
+        width: 71%;
+    }
+    
+    
+
+
+  }
+@media screen 
+  and (device-width: 375px) 
+  and (device-height: 812px) 
+  and (orientation: portrait){
+    .mbanner {
+        background: url(assets/img/mbanner.jpg);
+        height: 170px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section7 h3 {
+        font-family: gothambook;
+        text-transform: uppercase;
+        color: #585858;
+        font-size: 20px;
+    }
+    .section7 h2 {
+        font-family: gothamblack;
+        text-transform: uppercase;
+        color: #f37a21;
+        font-weight: 600;
+        font-size: 29px;
+    }
+    .upchildimg {
+        transform: translate(125px, 10px);
+        width: 234px;
+    }
+    .section10 h2 {
+        color: #54575a;
+        font-family: gothamblack;
+        padding: 0 0 0 61px;
+        font-size: 29px;
+    }
+
+
+  }
+  @media screen 
+  and (device-width: 414px) 
+  and (device-height: 896px) 
+  and (orientation: portrait){
+
+    .mbanner {
+        height: 251px;
+    }
+
+  }
+  @media screen 
+  and (device-width: 768px) 
+  and (device-height: 1024px) 
+  and (orientation: portrait){
+    .logo img {
+        width: 118px;
+        margin-left: 224px;
+    }
+    .contactfrm {
+        transform: translate(37px, -456px);
+        margin-top: 0;
+        padding: 12px;
+    }
+    .contactfrm h4 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 18px;
+        /* text-align: center; */
+    }
+    .banner {
+        background-size: cover;
+        height: 530px;
+        background-repeat: no-repeat;
+    }
+    .banner h1 {
+        color: #f37a21;
+        font-family: gothamblack;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 600;
+        transform: translate(0px, 77px);
+        line-height: 1;
+    }
+    .bannertxtsub h3 {
+        font-family: gothambook;
+        transform: translate(10px, 82px);
+        font-size: 19px;
+        color: #ff9934
+    }
+
+   
+    .cta img {
+        margin-top: 75px;
+        width: 91%;
+    }
+    .whyushead {
+        margin: -72px 0 0 0px;
+    }
+    .whyushead h2 {
+        font-size: 100px;
+    }
+    .whyushead .head2 {
+        font-size: 111px;
+        margin: 0px 0 0 76px;
+    }
+    .whyusimg {
+        height: 290px;
+    }
+    .jrnycont p {
+        font-size: 12px;
+    }
+    .quaprogramsect h2 {
+        font-size: 87px;
+    }
+    .quaprogramsect p {
+        font-size: 27px;
+    }
+    .prognamecol {
+        height: 744px;
+    }
+    .prognamecol img {
+        width: 77%;
+    }
+    .quaprogramsect table p {
+        font-size: 12px;
+    }
+    .programbg {
+        height: 322px;
+    }
+    .section2 p {
+        font-size: 17px;
+        color: #4e4d4d;
+    }
+    .section3 {
+
+    }
+    .section4 p {
+        
+    }
+    .section5 h3 {
+        color: #f37a21;
+        font-family: gothamblack;
+        font-size: 37px;
+        text-align: center;
+    }
+    .section5 p {
+        font-size: 13px;
+        margin-top: -5px;
+        line-height: 1;
+        color: #5d5d5d;
+        font-family: gothambook;
+    }
+    .stattxt1 {
+        margin-left: 19px;
+    }
+    .stattxt2 {
+        margin-left: 19px;
+    }
+    .stattxt3 {
+        margin-left: 19px;
+    }
+    .section6 {
+        height: 334px;
+        margin-top: 27px;
+    }
+    .section7 h2 {
+        font-family: gothamblack;
+        text-transform: uppercase;
+        color: #f37a21;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .section7 p {
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+    }
+    .upchildimg {
+        transform: translate(38px, -154px);
+    }
+    .section9 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 398px;
+        margin-top: 495px;
+    }
+    .section10 {
+        padding: 74px 0 0 0;
+    }
+    
+    .ryan {
+        margin: 62px 0 0 67px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #f37a21;
+        font-family: gothamblack;
+    }
+    .aboutryan {
+        font-family: 'Lato', sans-serif;
+        margin: 11px 0 0 67px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #54575a;
+    }
+
+  }
+  
