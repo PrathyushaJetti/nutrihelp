@@ -1,5 +1,5 @@
 <?php
-define('ROOT_PATH', 'http://localhost/nutrition-master/');
+define('ROOT_PATH', 'http://localhost/nutrihelp/');
 ?>
 
 <!DOCTYPE html>

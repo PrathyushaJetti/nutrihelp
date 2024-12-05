@@ -79,7 +79,7 @@ include('includes/header.php')
                         <div class="ttm-fid inside ttm-fid-view-topicon">
                             <div class="ttm-fid-icon-wrapper"><i class="ti ti-light-bulb ttm-textcolor-skincolor"></i></div>
                             <div class="ttm-fid-contents ttm-textcolor-white">
-                                <h4><span   data-appear-animation = "animateDigits"
+                                <!-- <h4><span   data-appear-animation = "animateDigits"
                                             data-from             = "0"
                                             data-to               = "878"
                                             data-interval         = "10"
@@ -89,8 +89,8 @@ include('includes/header.php')
                                             data-after-style      = "sub"
                                         >878
                                     </span>
-                                </h4>
-                                <h3 class="ttm-fid-title"><span>GOOD COMMENTS<br></span></h3>
+                                </h4> -->
+                                <h3 class="ttm-fid-title"><span>Customized Meal Plans<br></span></h3>
                             </div><!-- ttm-fid-contents end -->
                         </div>
                     </div>
@@ -98,7 +98,7 @@ include('includes/header.php')
                         <div class="ttm-fid inside ttm-fid-view-topicon">
                             <div class="ttm-fid-icon-wrapper"><i class="ti ti-image ttm-textcolor-skincolor"></i></div>
                             <div class="ttm-fid-contents ttm-textcolor-white">
-                                <h4><span   data-appear-animation = "animateDigits"
+                                <!-- <h4><span   data-appear-animation = "animateDigits"
                                             data-from             = "0"
                                             data-to               = "175"
                                             data-interval         = "10"
@@ -108,8 +108,8 @@ include('includes/header.php')
                                             data-after-style      = "sub"
                                         >175
                                     </span>
-                                </h4>
-                                <h3 class="ttm-fid-title"><span>FEATURED EVENTS<br></span></h3>
+                                </h4> -->
+                                <h3 class="ttm-fid-title"><span>Weight Loss<br></span></h3>
                             </div><!-- ttm-fid-contents end -->
                         </div>
                     </div>
@@ -117,7 +117,7 @@ include('includes/header.php')
                         <div class="ttm-fid inside ttm-fid-view-topicon">
                             <div class="ttm-fid-icon-wrapper"><i class="ti ti-crown ttm-textcolor-skincolor"></i></div>
                             <div class="ttm-fid-contents ttm-textcolor-white">
-                                <h4><span   data-appear-animation = "animateDigits"
+                                <!-- <h4><span   data-appear-animation = "animateDigits"
                                             data-from             = "0"
                                             data-to               = "344"
                                             data-interval         = "10"
@@ -127,8 +127,8 @@ include('includes/header.php')
                                             data-after-style      = "sub"
                                         >344
                                     </span>
-                                </h4>
-                                <h3 class="ttm-fid-title"><span>AWARDS WINNING<br></span></h3>
+                                </h4> -->
+                                <h3 class="ttm-fid-title"><span>Healthy Nutritions<br></span></h3>
                             </div><!-- ttm-fid-contents end -->
                         </div>
                     </div>
@@ -136,7 +136,7 @@ include('includes/header.php')
                         <div class="ttm-fid inside ttm-fid-view-topicon">
                             <div class="ttm-fid-icon-wrapper"><i class="ti ti-face-smile ttm-textcolor-skincolor"></i></div>
                             <div class="ttm-fid-contents ttm-textcolor-white">
-                                <h4><span   data-appear-animation = "animateDigits"
+                                <!-- <h4><span   data-appear-animation = "animateDigits"
                                             data-from             = "0"
                                             data-to               = "125"
                                             data-interval         = "10"
@@ -146,8 +146,8 @@ include('includes/header.php')
                                             data-after-style      = "sub"
                                         >125
                                     </span>
-                                </h4>
-                                <h3 class="ttm-fid-title"><span>HAPPY CLIENT<br></span></h3>
+                                </h4> -->
+                                <h3 class="ttm-fid-title"><span>Real Time Support<br></span></h3>
                             </div><!-- ttm-fid-contents end -->
                         </div>
                     </div>

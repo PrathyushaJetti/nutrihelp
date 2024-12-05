@@ -908,17 +908,17 @@ include('includes/header.php')
                                             <h4 class="ttm-fid-inner">
                                                 <span   data-appear-animation = "animateDigits"
                                                 data-from             = "0"
-                                                data-to               = "820"
+                                                data-to               = "40"
                                                 data-interval         = "20"
                                                 data-before           = ""
                                                 data-before-style     = "sup"
                                                 data-after            = ""
                                                 data-after-style      = "sub"
-                                            >820</span>
+                                            >40</span>
                                             </h4>
                                         </div>
                                         <div class="ttm-fid-contents text-left">
-                                            <h3 class="ttm-fid-title">Awards &amp; Features</h3>
+                                            <h3 class="ttm-fid-title">Our &amp; Services</h3>
                                         </div>
                                     </div><!-- ttm-fid end-->
                                 </div>
